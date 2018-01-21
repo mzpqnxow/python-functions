@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
     Copyright 2018 copyright@mzpqnxow.com
 
@@ -68,8 +69,7 @@
     You can see the YaML file is loaded once and then used as the source
     of variables for another pass against the contents of the YaML file.
 """
-
-from __future__ import print_function
+from __future__ import print_function, unicode_literals
 from collections import OrderedDict
 from json import dumps as json_print
 from re import search as regex_search
