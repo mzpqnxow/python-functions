@@ -86,6 +86,10 @@ def ascii_hex_to_python(inbuf,
                 wireshark: yeah, I don't know why you wouldn't just export raw
                            bytes, it seems much easier. But it's a similar regex
                            so might as well support it
+        Errata:
+            You will find this function will work with many types of hex dump formats
+            so if you have one that isn't od, xxd, tcpdump or wireshark, you should
+            try it out anyway. You might get lucky :>
     """
 
     def err(msg):
