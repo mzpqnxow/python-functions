@@ -144,7 +144,7 @@ def load_yaml_ordered(filename):
 
 def main():
     """Driver"""
-    data = load_yaml_ordered("test.yml")
+    data = load_yaml_ordered('ordered-yaml-j2-multipass-example.yml')
     print('--- Before ---')
     json_pretty(data)
     print('')

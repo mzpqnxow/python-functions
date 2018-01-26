@@ -1,0 +1,30 @@
+instance_root: /home/user/ansible-test
+source_ssh_key: /home/user/.ssh/solaris_ansible
+
+ansible_user: user
+ansible_become_user: root
+ansible_become_method: su
+
+ansible_etc: "{{ instance_root }}/etc"
+ansible_library: "{{ instance_root }}/modules"
+ansible_inventory: "{{ ansible_etc }}/inventory"
+ansible_cfg: "{{ ansible_etc }}/etc/ansible.cfg"
+ansible_playbooks: "{{ instance_root }}/playbooks"
+ansible_roles: "{{ instance_root }}/roles"
+ansible_callbacks: "{{ instance_root }}/callbacks"
+ansible_filters: "{{ instance_root }}/filters"
+ansible_key: "{{ ansible_keys }}/id_rsa.ansible"
+ansible_logs: "{{ instance_root }}/log"
+
+ansible_plugins: "{{ instance_root }}/plugins"
+
+ansible_plugins_action: "{{ ansible_plugins }}/action"
+ansible_plugins_cache: "{{ ansible_plugins }}/cache"
+ansible_plugins_callback: "{{ ansible_plugins }}/callback"
+ansible_plugins_connection: "{{ ansible_plugins }}/connection"
+ansible_plugins_inventory: "{{ ansible_plugins }}/inventory"
+ansible_plugins_vars: "{{ ansible_plugins }}/vars"
+ansible_plugins_filter: "{{ ansible_plugins }}/filter"
+ansible_plugins_test: "{{ ansible_plugins }}/test"
+ansible_plugins_terminal: "{{ ansible_plugins }}/terminal"
+ansible_plugins_strategy: "{{ ansible_plugins }}/strategy"
