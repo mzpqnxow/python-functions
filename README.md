@@ -1,6 +1,18 @@
 # python-functions
 Useful Python functions that tend to be reused in different projects. Written by copyright@mzpqnxow.com with much inspiration and input from StackOverflow :>
 
+# Testing
+
+```
+$ make
+$ source venv/bin/activate
+$ ...
+```
+
+# Virtual Environment
+
+The simple virtual environment and Makefile build system is provided by (pybuild23)[https://github.com/mzpqnxow/pybuild23]
+
 # Copyright
 
 Modified BSD License
@@ -31,3 +43,4 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
