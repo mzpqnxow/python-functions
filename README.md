@@ -1,5 +1,5 @@
 # python-functions
-Useful Python functions that tend to be reused in different projects
+Useful Python functions that tend to be reused in different projects. Written by copyright@mzpqnxow.com with much inspiration and input from StackOverflow :>
 
 # Copyright
 
