@@ -11,7 +11,7 @@ $ ...
 
 # Virtual Environment
 
-The simple virtual environment and Makefile build system is provided by (pybuild23)[https://github.com/mzpqnxow/pybuild23]
+The simple virtual environment and Makefile build system is provided by [pybuild23](https://github.com/mzpqnxow/pybuild23)
 
 # Copyright
 
